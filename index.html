@@ -1,1 +1,323 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Halkyra</title></head><body style="margin:0;font-family:sans-serif;background:#0b3d6e;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;text-align:center"><div><h1>Halkyra</h1><p>Cruise deals. Coming soon.</p></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="google" content="notranslate">
+<title>Halkyra – Cruise deals from around the world</title>
+<meta name="description" content="Halkyra helps you compare cruise lines from around the world, shore excursions, beach activities, travel insurance and eSIM plans in one place.">
+<link rel="canonical" href="https://truxz78-png.github.io/halkyra-app/">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/icon-192.png">
+<meta name="theme-color" content="#0a2a4a">
+<link rel="preload" as="image" href="img/hero.webp">
+<style>
+:root{
+  --navy:#0a2a4a; --ocean:#0b5fa5; --sea:#1fb5c9; --coral:#ff6f61; --gold:#f5c45b;
+  --sand:#f6f3ec; --ink:#14263a; --muted:#5b6b7c; --card:#ffffff; --line:#e3e8ee;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:112px}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;color:var(--ink);background:var(--sand);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--ocean)}
+.wrap{max-width:900px;margin:0 auto;padding:0 18px}
+
+/* Top bar */
+.top{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;align-items:center;justify-content:space-between;padding:10px 16px;transition:background .25s,box-shadow .25s}
+.top.solid{background:rgba(10,42,74,.96);box-shadow:0 2px 12px rgba(0,0,0,.18)}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:.3px;text-shadow:0 1px 6px rgba(0,0,0,.35)}
+.brand img{width:34px;height:34px;border-radius:9px;box-shadow:0 1px 6px rgba(0,0,0,.3)}
+.langbtn{background:rgba(255,255,255,.18);color:#fff;border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:7px 13px;font-size:15px;font-weight:700;cursor:pointer;backdrop-filter:blur(6px)}
+
+/* Hero */
+.hero{position:relative;min-height:92vh;min-height:92svh;background:#0b5fa5 url("img/hero.webp") center 62%/cover no-repeat;display:flex;align-items:flex-start;color:#fff}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,30,60,.55) 0%,rgba(6,30,60,.15) 38%,rgba(6,30,60,0) 55%,rgba(6,30,60,.55) 100%)}
+.hero .in{position:relative;padding:96px 22px 0;max-width:640px}
+.hero h1{margin:0 0 10px;font-size:clamp(30px,8vw,46px);line-height:1.1;text-shadow:0 2px 14px rgba(0,0,0,.35)}
+.hero p{margin:0 0 20px;font-size:clamp(16px,4.2vw,19px);text-shadow:0 1px 8px rgba(0,0,0,.4)}
+.cta{display:inline-flex;align-items:center;gap:8px;background:var(--coral);color:#fff;text-decoration:none;font-weight:800;padding:13px 22px;border-radius:999px;box-shadow:0 6px 18px rgba(255,111,97,.45)}
+.hero .meaning{position:absolute;left:0;right:0;bottom:18px;text-align:center;font-size:13px;opacity:.95;padding:0 20px;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+
+/* Section nav */
+.secnav{position:sticky;top:54px;z-index:20;background:var(--navy);overflow-x:auto;white-space:nowrap;scrollbar-width:none;padding:8px 10px}
+.secnav::-webkit-scrollbar{display:none}
+.secnav a{display:inline-block;color:#cfe3f5;text-decoration:none;font-weight:700;font-size:14px;padding:7px 13px;border-radius:999px;margin-right:4px}
+.secnav a.on{background:var(--sea);color:#06263f}
+
+/* Sections */
+section{padding:34px 0 10px}
+h2{font-size:24px;margin:0 0 6px;color:var(--navy)}
+h3{font-size:16px;margin:22px 0 10px;color:var(--ocean);text-transform:uppercase;letter-spacing:.6px}
+.intro{color:var(--muted);margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:8px;box-shadow:0 2px 8px rgba(10,42,74,.05)}
+.card .nm{font-weight:800;font-size:17px;color:var(--navy)}
+.card .ds{color:var(--muted);font-size:14.5px;flex:1}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--ocean);color:#fff;text-decoration:none;font-weight:700;padding:11px 14px;border-radius:12px;text-align:center}
+.btn .arr{flex:none}
+.card .ops{font-size:12px;color:var(--muted);text-align:center}
+.note{background:#e6f6f9;border-left:4px solid var(--sea);border-radius:10px;padding:10px 14px;font-size:14px;margin:14px 0 4px}
+
+/* Disclosure */
+.disc{background:#fff7e3;border:1px solid #f1dfaa;border-radius:12px;padding:10px 14px;font-size:14px;margin:0 0 16px}
+.disc details summary{cursor:pointer;color:var(--ocean);font-weight:700;margin-top:4px;list-style:none}
+.disc details summary::-webkit-details-marker{display:none}
+.disc details p{margin:8px 0 0}
+
+/* Regions */
+.reg{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+.reg .t{font-weight:800;color:var(--navy);font-size:16.5px}
+.reg .s{font-size:13px;font-weight:700;color:var(--coral);margin:2px 0 4px}
+.reg p{margin:0;font-size:14.5px;color:var(--muted)}
+
+/* Guides */
+.guide{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden}
+.guide summary{cursor:pointer;padding:14px 16px;font-weight:800;color:var(--navy);list-style:none;display:flex;justify-content:space-between;gap:10px}
+.guide summary::-webkit-details-marker{display:none}
+.guide summary::after{content:"+";color:var(--ocean);font-size:20px;line-height:1}
+.guide[open] summary::after{content:"–"}
+.guide ul{margin:0;padding:0 18px 14px 34px}
+.guide li{margin:6px 0}
+
+/* Footer */
+footer{background:var(--navy);color:#cfe3f5;margin-top:36px;padding:26px 0 34px;font-size:14px}
+footer a{color:#fff}
+footer .links{display:flex;flex-wrap:wrap;gap:8px 14px;margin:12px 0}
+footer small{display:block;opacity:.8;margin-top:10px}
+
+/* Language menu */
+.lm{position:fixed;inset:0;z-index:50;background:rgba(4,20,38,.6);display:none;align-items:flex-end;justify-content:center}
+.lm.show{display:flex}
+.lm .box{background:#fff;width:100%;max-width:520px;max-height:80vh;border-radius:18px 18px 0 0;display:flex;flex-direction:column}
+.lm .hd{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line);font-weight:800;color:var(--navy)}
+.lm .hd button{border:0;background:none;font-size:24px;cursor:pointer;color:var(--muted)}
+.lm ul{list-style:none;margin:0;padding:6px 0;overflow-y:auto}
+.lm li button{width:100%;text-align:start;border:0;background:none;padding:12px 18px;font-size:16px;cursor:pointer;color:var(--ink)}
+.lm li button.cur{background:#e6f6f9;font-weight:800}
+.tr-busy{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);background:var(--navy);color:#fff;padding:8px 14px;border-radius:999px;font-size:13px;z-index:40;display:none}
+[dir="rtl"] .secnav{direction:rtl}
+</style>
+</head>
+<body>
+
+<header class="top" id="top">
+  <a class="brand" href="#" aria-label="Halkyra"><img src="img/icon-192.png" alt=""><span translate="no">Halkyra</span></a>
+  <button class="langbtn" id="langBtn" type="button" aria-label="Language">🌐 <span id="langCode" translate="no">EN</span></button>
+</header>
+
+<div class="hero">
+  <div class="in">
+    <h1>Cruise deals from every ocean</h1>
+    <p>Compare cruise lines from around the world, plus shore excursions, beach activities, travel insurance and internet for your trip.</p>
+    <a class="cta" href="#cruises">Explore cruises</a>
+  </div>
+  <div class="meaning">Our name comes from the "halcyon days" of ancient sailors: calm seas and happy voyages.</div>
+</div>
+
+<nav class="secnav" id="secnav">
+  <a href="#cruises">Cruises</a>
+  <a href="#regions">Regions</a>
+  <a href="#excursions">Excursions</a>
+  <a href="#sea">Beach and sea</a>
+  <a href="#insurance">Insurance</a>
+  <a href="#esim">Internet</a>
+  <a href="#guides">Guides</a>
+  <a href="#embassies">Embassies</a>
+</nav>
+
+<main class="wrap">
+
+  <section id="cruises">
+    <h2>Cruise lines and cruise deals</h2>
+    <p class="intro">Choose the company you like best. Each one shows its own ships, dates and prices.</p>
+    <div class="disc">
+      Some links are affiliate links. If you book, we may earn a commission at no extra cost to you.
+      <details id="discMore">
+        <summary id="discSum">About these links</summary>
+        <p>This app is a free guide. We do not sell cruises. We do not take bookings. We do not process payments. When you tap a partner button, the partner's website opens and your booking is made only with that partner. Some partners pay us a small commission when a booking is made through our links. This does not change the price you pay.</p>
+      </details>
+    </div>
+    <h3>Cruise lines</h3>
+    <div class="grid" data-group="lines"></div>
+    <h3>Compare many cruise lines</h3>
+    <div class="grid" data-group="agencies"></div>
+  </section>
+
+  <section id="regions">
+    <h2>Cruise regions of the world</h2>
+    <p class="intro">Every region has its best season. Use this guide to choose where and when to sail.</p>
+    <div class="grid">
+      <div class="reg"><div class="t"><span translate="no">🏝️</span> Caribbean and Bahamas</div><div class="s">Best season: December to April</div><p>Beaches, coral reefs and many islands on one trip. The hurricane season runs from June to November.</p></div>
+      <div class="reg"><div class="t"><span translate="no">🏛️</span> Mediterranean</div><div class="s">Best season: May to October</div><p>Ancient cities, Greek islands, Italian and Spanish ports, and great food.</p></div>
+      <div class="reg"><div class="t"><span translate="no">🏔️</span> Northern Europe and Norwegian fjords</div><div class="s">Best season: May to September</div><p>Fjords, glaciers and Baltic capitals, with very long summer days.</p></div>
+      <div class="reg"><div class="t"><span translate="no">🐋</span> Alaska</div><div class="s">Best season: May to September</div><p>Glaciers, whales, bears and small towns surrounded by mountains.</p></div>
+      <div class="reg"><div class="t"><span translate="no">⛩️</span> Asia and Japan</div><div class="s">Best season: spring and autumn in Japan</div><p>Temples, modern cities and street food. The best months change from country to country.</p></div>
+      <div class="reg"><div class="t"><span translate="no">🐠</span> Australia and South Pacific</div><div class="s">Best season: November to March</div><p>Coral reefs, white beaches and Pacific islands such as Fiji and Tahiti.</p></div>
+      <div class="reg"><div class="t"><span translate="no">🐧</span> South America and Antarctica</div><div class="s">Best season: November to March</div><p>Patagonia, Cape Horn, Rio de Janeiro and expedition cruises to Antarctica.</p></div>
+      <div class="reg"><div class="t"><span translate="no">🌋</span> Hawaii</div><div class="s">Best season: all year</div><p>Volcanoes, beaches and a different island almost every day.</p></div>
+      <div class="reg"><div class="t"><span translate="no">🚢</span> River cruises</div><div class="s">Europe: spring to autumn. Nile: October to April</div><p>Small ships on the Rhine, the Danube, the Nile and the Mekong, with a new town almost every day.</p></div>
+      <div class="reg"><div class="t"><span translate="no">🌍</span> World cruises</div><div class="s">Most start in January</div><p>Several continents on one long voyage. Some cruise lines also sell shorter parts of the trip.</p></div>
+    </div>
+  </section>
+
+  <section id="excursions">
+    <h2>Shore excursions</h2>
+    <p class="intro">Make the most of every port day with tours you can book before you sail.</p>
+    <div class="grid" data-group="excursions"></div>
+    <div class="note">Always plan to be back on the ship at least one hour before the "all aboard" time.</div>
+  </section>
+
+  <section id="sea">
+    <h2>Beach and sea</h2>
+    <p class="intro">Boat rentals, jet skis, snorkeling, surfing and scuba diving in ports and beaches around the world.</p>
+    <div class="grid" data-group="sea"></div>
+  </section>
+
+  <section id="insurance">
+    <h2>Travel insurance</h2>
+    <p class="intro">Medical care on a ship or abroad can be very expensive. Compare plans before you travel.</p>
+    <div class="grid" data-group="insurance"></div>
+    <div class="note">Read the plan details and check that it covers cruises before you buy.</div>
+  </section>
+
+  <section id="esim">
+    <h2>Internet on your trip</h2>
+    <p class="intro">An eSIM gives you mobile data in each port without changing your SIM card.</p>
+    <div class="grid" data-group="esim"></div>
+    <div class="note">Most eSIM plans work only on land or near the coast. At sea, you usually need the ship's Wi-Fi.</div>
+  </section>
+
+  <section id="guides">
+    <h2>Cruise guides</h2>
+    <p class="intro">Simple tips to plan your cruise with confidence.</p>
+    <details class="guide"><summary>Your first cruise: what to know</summary><ul>
+      <li>Book early to get more cabin choices.</li>
+      <li>Cruise prices are usually per person, based on two people in one cabin.</li>
+      <li>Check what is included. Drinks, Wi-Fi, tips and excursions are often extra.</li>
+      <li>Arrive in the port city one day before the cruise starts.</li>
+      <li>Keep your passport and medicines in your hand luggage on boarding day.</li>
+    </ul></details>
+    <details class="guide"><summary>How to choose a cabin</summary><ul>
+      <li>Inside cabins are the cheapest and have no window.</li>
+      <li>Ocean view cabins have a window that does not open.</li>
+      <li>Balcony cabins have a private outdoor space.</li>
+      <li>Suites are larger and often include extra services.</li>
+      <li>Cabins in the middle of the ship and on lower decks feel less movement.</li>
+    </ul></details>
+    <details class="guide"><summary>What to pack</summary><ul>
+      <li>Passport and travel documents, plus a printed copy.</li>
+      <li>Sunscreen, sunglasses and a hat.</li>
+      <li>A light jacket for windy evenings on deck.</li>
+      <li>One elegant outfit for special dinners.</li>
+      <li>Check the list of items your cruise line does not allow on board.</li>
+    </ul></details>
+    <details class="guide"><summary>Port days</summary><ul>
+      <li>Read the "all aboard" time every morning. The ship does not wait for late passengers.</li>
+      <li>Excursions made for cruise passengers usually promise to bring you back on time.</li>
+      <li>Carry the phone number of the ship's port agent.</li>
+      <li>Use local money or a card that has no foreign transaction fees.</li>
+    </ul></details>
+    <details class="guide"><summary>Passports and visas</summary><ul>
+      <li>Many countries ask for a passport that is valid for at least six months after your trip.</li>
+      <li>Check the visa rules for every country on your route, not only the first port.</li>
+      <li>Rules depend on your nationality, so check with official government sources.</li>
+    </ul></details>
+  </section>
+
+  <section id="embassies">
+    <h2>Embassies and travel advice</h2>
+    <p class="intro">Before you sail, check entry rules and safety advice from official sources.</p>
+    <div class="grid" data-group="embassies"></div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong translate="no">Halkyra</strong>
+    <p>Some links on this page are affiliate links. We may earn a commission when you book through them, at no extra cost to you. This app is not a travel agency.</p>
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="mailto:hpind77@gmail.com">Contact</a>
+    </div>
+    <small>Pages are translated automatically from English. The English version is the official one.</small>
+    <small>© 2026 <span translate="no">DriftforgeDev</span></small>
+  </div>
+</footer>
+
+<div class="lm" id="lm" role="dialog" aria-modal="true">
+  <div class="box">
+    <div class="hd"><span><span translate="no">🌐</span> Language</span><button type="button" id="lmClose" aria-label="Close">×</button></div>
+    <ul id="lmList"></ul>
+  </div>
+</div>
+<div class="tr-busy" id="trBusy">🌐 …</div>
+
+<script>
+/* Section nav: highlight current section */
+(function(){
+  var top=document.getElementById('top');
+  var links=[].slice.call(document.querySelectorAll('#secnav a'));
+  var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'));});
+  function onScroll(){
+    top.classList.toggle('solid', window.scrollY>40);
+    var y=window.scrollY+130, cur=-1;
+    secs.forEach(function(s,i){ if(s && s.offsetTop<=y) cur=i; });
+    if((window.innerHeight+window.scrollY)>=document.body.scrollHeight-4) cur=secs.length-1;
+    links.forEach(function(a,i){ a.classList.toggle('on', i===cur); });
+    if(cur>=0){ var a=links[cur], nav=a.parentNode;
+      if(a.offsetLeft<nav.scrollLeft || a.offsetLeft+a.offsetWidth>nav.scrollLeft+nav.clientWidth){ nav.scrollLeft=a.offsetLeft-20; } }
+  }
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+})();
+
+/* Disclosure: "About these links" / "Hide" */
+(function(){
+  var d=document.getElementById('discMore'), s=document.getElementById('discSum');
+  var openTxt=null, closedTxt=null;
+  d.addEventListener('toggle',function(){
+    if(closedTxt===null) closedTxt=s.textContent;
+    if(d.open){ if(openTxt===null) openTxt=(window.HK_t?window.HK_t('Hide'):'Hide'); s.textContent=openTxt; }
+    else s.textContent=closedTxt;
+  });
+})();
+
+/* Partner cards from links.json */
+var ACTIONS={
+  act_cruises:'Search cruises on', act_compare:'Compare cruises on', act_tours:'Find tours on',
+  act_sea:'Explore on', act_insurance:'Compare plans on', act_esim:'See eSIM plans on', act_official:'Open'
+};
+function el(tag,cls,txt){var e=document.createElement(tag); if(cls)e.className=cls; if(txt!=null)e.textContent=txt; return e;}
+function noTr(txt){var s=el('span',null,txt); s.setAttribute('translate','no'); return s;}
+function buildCards(data){
+  data.groups.forEach(function(g){
+    var box=document.querySelector('[data-group="'+g.id+'"]'); if(!box) return;
+    g.partners.forEach(function(p){
+      if(p.enabled===false) return;
+      var c=el('div','card');
+      var nm=el('div','nm'); nm.appendChild(noTr(p.name)); c.appendChild(nm);
+      c.appendChild(el('div','ds',p.desc));
+      var a=el('a','btn'); a.href=p.url; a.target='_blank'; a.rel=p.affiliate?'noopener sponsored':'noopener';
+      var l=el('span','lbl'); l.setAttribute('data-act',ACTIONS[g.action]); l.setAttribute('data-brand',p.name);
+      l.appendChild(noTr(ACTIONS[g.action]+' ')); l.appendChild(noTr(p.name));
+      a.appendChild(l); a.appendChild(el('span','arr','↗'));
+      c.appendChild(a);
+      c.appendChild(el('div','ops', g.id==='embassies' ? 'Official website. Opens in a new page.' : 'Opens partner site'));
+      box.appendChild(c);
+    });
+  });
+}
+fetch('links.json',{cache:'no-cache'}).then(function(r){return r.json();})
+  .then(buildCards)
+  .catch(function(){})
+  .then(function(){ window.HK_READY=true; document.dispatchEvent(new Event('hk-ready')); });
+
+/* Service worker */
+if('serviceWorker' in navigator){ navigator.serviceWorker.register('sw.js').catch(function(){}); }
+</script>
+<script src="i18n.js"></script>
+<script src="translate.js"></script>
+</body>
+</html>

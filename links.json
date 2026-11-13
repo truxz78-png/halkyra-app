@@ -1,0 +1,333 @@
+{
+  "_note": "Partner links. 'url' is what the app opens. 'official' is the backup page. Set enabled:false to hide a partner without deleting it.",
+  "groups": [
+    {
+      "id": "lines",
+      "section": "cruises",
+      "action": "act_cruises",
+      "partners": [
+        {
+          "id": "royal",
+          "name": "Royal Caribbean",
+          "url": "https://www.royalcaribbean.com/",
+          "official": "https://www.royalcaribbean.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Big ships with many activities on board. Cruises in many regions of the world."
+        },
+        {
+          "id": "carnival",
+          "name": "Carnival Cruise Line",
+          "url": "https://www.carnival.com/",
+          "official": "https://www.carnival.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Fun and casual cruises, with many short trips."
+        },
+        {
+          "id": "ncl",
+          "name": "Norwegian Cruise Line",
+          "url": "https://www.ncl.com/",
+          "official": "https://www.ncl.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Freestyle cruising with flexible dining times."
+        },
+        {
+          "id": "msc",
+          "name": "MSC Cruises",
+          "url": "https://www.msccruises.com/",
+          "official": "https://www.msccruises.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Cruises in the Mediterranean, Northern Europe, the Caribbean and more."
+        },
+        {
+          "id": "princess",
+          "name": "Princess Cruises",
+          "url": "https://www.princess.com/",
+          "official": "https://www.princess.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Classic cruises, including Alaska, Asia and long voyages."
+        },
+        {
+          "id": "celebrity",
+          "name": "Celebrity Cruises",
+          "url": "https://www.celebritycruises.com/",
+          "official": "https://www.celebritycruises.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Modern premium ships and refined dining."
+        },
+        {
+          "id": "hal",
+          "name": "Holland America Line",
+          "url": "https://www.hollandamerica.com/",
+          "official": "https://www.hollandamerica.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Mid-size ships and longer itineraries."
+        },
+        {
+          "id": "costa",
+          "name": "Costa Cruises",
+          "url": "https://www.costacruises.com/",
+          "official": "https://www.costacruises.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Italian-style cruises, very popular in Europe."
+        },
+        {
+          "id": "viking",
+          "name": "Viking",
+          "url": "https://www.viking.com/",
+          "official": "https://www.viking.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Ocean and river cruises focused on the destinations."
+        }
+      ]
+    },
+    {
+      "id": "agencies",
+      "section": "cruises",
+      "action": "act_compare",
+      "partners": [
+        {
+          "id": "cruisedirect",
+          "name": "CruiseDirect",
+          "url": "https://www.cruisedirect.com/",
+          "official": "https://www.cruisedirect.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Online cruise agency that shows many cruise lines in one search."
+        },
+        {
+          "id": "cruisecom",
+          "name": "Cruise.com",
+          "url": "https://www.cruise.com/",
+          "official": "https://www.cruise.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Search cruises from many cruise lines."
+        },
+        {
+          "id": "cruisecritic",
+          "name": "Cruise Critic",
+          "url": "https://www.cruisecritic.com/",
+          "official": "https://www.cruisecritic.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Read cruise reviews and compare prices."
+        },
+        {
+          "id": "expedia",
+          "name": "Expedia Cruises",
+          "url": "https://www.expedia.com/Cruises",
+          "official": "https://www.expedia.com/Cruises",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Search and compare cruises from many cruise lines."
+        }
+      ]
+    },
+    {
+      "id": "excursions",
+      "section": "excursions",
+      "action": "act_tours",
+      "partners": [
+        {
+          "id": "seg",
+          "name": "Shore Excursions Group",
+          "url": "https://www.shoreexcursionsgroup.com/",
+          "official": "https://www.shoreexcursionsgroup.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Tours made for cruise passengers in ports around the world."
+        },
+        {
+          "id": "gyg",
+          "name": "GetYourGuide",
+          "url": "https://www.getyourguide.com/",
+          "official": "https://www.getyourguide.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Tours and activities in port cities."
+        },
+        {
+          "id": "viator",
+          "name": "Viator",
+          "url": "https://www.viator.com/",
+          "official": "https://www.viator.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Tours, day trips and activities worldwide."
+        },
+        {
+          "id": "kkday",
+          "name": "KKday",
+          "url": "https://invl.me/clo2f3z",
+          "official": "https://www.kkday.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Tours and experiences, with many options in Asia."
+        }
+      ]
+    },
+    {
+      "id": "sea",
+      "section": "sea",
+      "action": "act_sea",
+      "partners": [
+        {
+          "id": "getmyboat",
+          "name": "Getmyboat",
+          "url": "https://www.getmyboat.com/",
+          "official": "https://www.getmyboat.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Rent boats, yachts, kayaks and jet skis."
+        },
+        {
+          "id": "boatsetter",
+          "name": "Boatsetter",
+          "url": "https://www.boatsetter.com/",
+          "official": "https://www.boatsetter.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Boat rentals with or without a captain."
+        },
+        {
+          "id": "samboat",
+          "name": "SamBoat",
+          "url": "https://www.samboat.com/",
+          "official": "https://www.samboat.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Boat rentals, with many options in Europe."
+        },
+        {
+          "id": "gygwater",
+          "name": "GetYourGuide",
+          "url": "https://www.getyourguide.com/s/?q=water%20sports",
+          "official": "https://www.getyourguide.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Jet ski, snorkeling, surf lessons and other water activities."
+        },
+        {
+          "id": "padi",
+          "name": "PADI",
+          "url": "https://www.padi.com/",
+          "official": "https://www.padi.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Learn to scuba dive and find dive centers."
+        }
+      ]
+    },
+    {
+      "id": "insurance",
+      "section": "insurance",
+      "action": "act_insurance",
+      "partners": [
+        {
+          "id": "safetywing",
+          "name": "SafetyWing",
+          "url": "https://safetywing.com/nomad-insurance?referenceID=26592172&utm_source=26592172&utm_medium=Ambassador",
+          "official": "https://safetywing.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Travel medical insurance for trips abroad."
+        },
+        {
+          "id": "worldnomads",
+          "name": "World Nomads",
+          "url": "https://www.worldnomads.com/",
+          "official": "https://www.worldnomads.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Travel insurance for travelers from many countries."
+        }
+      ]
+    },
+    {
+      "id": "esim",
+      "section": "esim",
+      "action": "act_esim",
+      "partners": [
+        {
+          "id": "airalo",
+          "name": "Airalo",
+          "url": "https://airalo.tpx.lu/1ZoNqig8",
+          "official": "https://www.airalo.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "eSIM data plans for many countries."
+        },
+        {
+          "id": "holafly",
+          "name": "Holafly",
+          "url": "https://esim.holafly.com/esim-cruise-ships/",
+          "official": "https://esim.holafly.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "eSIM plans, including plans made for cruises."
+        },
+        {
+          "id": "gigsky",
+          "name": "GigSky",
+          "url": "https://www.gigsky.com/data-cruises",
+          "official": "https://www.gigsky.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "eSIM plans for ports and some cruise ships."
+        }
+      ]
+    },
+    {
+      "id": "embassies",
+      "section": "embassies",
+      "action": "act_official",
+      "partners": [
+        {
+          "id": "embassypages",
+          "name": "EmbassyPages",
+          "url": "https://www.embassypages.com/",
+          "official": "https://www.embassypages.com/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Find embassies and consulates of any country."
+        },
+        {
+          "id": "usstate",
+          "name": "travel.state.gov",
+          "url": "https://travel.state.gov/content/travel/en/international-travel.html",
+          "official": "https://travel.state.gov/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Official travel information for U.S. citizens."
+        },
+        {
+          "id": "ukgov",
+          "name": "GOV.UK",
+          "url": "https://www.gov.uk/foreign-travel-advice",
+          "official": "https://www.gov.uk/foreign-travel-advice",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Official travel advice from the United Kingdom."
+        },
+        {
+          "id": "canada",
+          "name": "travel.gc.ca",
+          "url": "https://travel.gc.ca/travelling/advisories",
+          "official": "https://travel.gc.ca/",
+          "affiliate": false,
+          "enabled": true,
+          "desc": "Official travel advice from the Government of Canada."
+        }
+      ]
+    }
+  ]
+}
