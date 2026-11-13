@@ -95,6 +95,59 @@ Terms of Service
 Contact
 Pages are translated automatically from English. The English version is the official one.
 Language
+Privacy Policy – Halkyra
+← Back to
+Last updated: November 13, 2026
+This Privacy Policy explains how the Halkyra app and website handle information. Halkyra is published by DriftforgeDev.
+1. Summary
+You do not need an account to use Halkyra.
+We do not ask for your name, email address or payment details.
+We do not use analytics or tracking tools.
+We do not show ads. We do not use the advertising ID of your phone.
+We do not sell personal information.
+2. Information we do not collect
+Halkyra does not collect your location. Halkyra does not read your contacts, photos or files. Halkyra does not record what you tap inside the app.
+3. Technical Services and Local Storage
+Website hosting: our website is hosted on GitHub Pages. Like any web server, it may record technical data such as your IP address and browser type to deliver the page and keep it secure.
+Automatic translation: when your phone uses a language other than English, the texts of the page are sent to the Google translation service (translate.googleapis.com) to be translated. Only the texts of the page are sent. Google may receive technical data such as your IP address.
+Local storage: the app saves on your phone the language you choose and the translated texts, so the page opens faster. It also keeps a copy of the page files, so the app can open without internet. This data stays on your phone. You can delete it by clearing the storage of the app.
+4. Partner websites
+When you tap a partner button, the website of that partner opens. Partners such as cruise lines, travel agencies, tour companies, insurance companies and eSIM providers have their own privacy policies. Their policies apply to the information you give them.
+Some links are affiliate links. The partner may record that you arrived from Halkyra, so it can pay us a commission.
+5. Children
+Halkyra is made for adults. We do not knowingly collect information from children.
+6. Changes to This Privacy Policy
+We may update this Privacy Policy. The date at the top of this page shows the latest version.
+7. Contact
+If you have questions about this Privacy Policy, write to us at:
+This page may be translated automatically. The English version is the official one.
+Terms of Service – Halkyra
+These Terms of Service apply to the Halkyra app and website. Halkyra is operated by DriftforgeDev. By using Halkyra, you accept these Terms of Service.
+1. What Halkyra is
+Halkyra is a free guide that helps you find cruise lines, shore excursions, beach activities, travel insurance, eSIM plans and official travel information from around the world.
+Halkyra is not a travel agency. We do not sell cruises. We do not take reservations. We do not process payments.
+2. Partner platforms
+Bookings and purchases are made on the websites of our partners. Your contract is only between you and the partner. Each partner decides its prices, availability, cancellations and refunds. Please read the terms of the partner before you book.
+3. Affiliate disclosure
+Some links in Halkyra are affiliate links. We may earn a commission when you book through them. This does not change the price you pay.
+4. General information
+The guides and tips in Halkyra are general information. They are not legal, medical, financial or immigration advice. Travel rules can change. Always check visa and entry rules with official government sources before you travel.
+5. Acceptable use
+Use Halkyra only for lawful purposes. Do not try to damage the app or the website. Do not copy the content of Halkyra to present it as your own.
+6. Intellectual property
+The Halkyra name, icon, texts and design belong to DriftforgeDev. Partner names and brands belong to their owners. We use them only to identify each partner.
+7. Automatic translation
+Halkyra can be translated automatically into many languages. Translations may contain errors. The English version is the official one.
+8. Availability and accuracy
+Halkyra is provided as it is. We work to keep the information correct and the links working. We cannot promise that every page or link is always available or free of errors.
+9. Limitation of liability
+DriftforgeDev is not responsible for the services, prices or actions of partner companies. To the extent allowed by law, DriftforgeDev is not responsible for losses that come from the use of partner websites.
+10. Changes to These Terms of Service
+We may update these Terms of Service. The date at the top of this page shows the latest version.
+11. Governing law
+These Terms of Service are governed by the laws of the Dominican Republic.
+12. Contact
+If you have questions about these Terms of Service, write to us at:
 Big ships with many activities on board. Cruises in many regions of the world.
 Fun and casual cruises, with many short trips.
 Freestyle cruising with flexible dining times.

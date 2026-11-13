@@ -23,11 +23,15 @@ class P(HTMLParser):
         t=re.sub(r'\s+',' ',d).strip()
         if t and re.search(r'[A-Za-z]', t): s.out.append(t)
 
+PAGES = ['index.html', 'privacy.html', 'terms.html']
+
 def keys(root='.'):
-    p=P(); p.feed(open(f'{root}/index.html', encoding='utf-8').read())
-    ks=list(p.out)
-    m=re.search(r'<title>(.*?)</title>', open(f'{root}/index.html', encoding='utf-8').read())
-    ks.insert(0, m.group(1).strip())
+    ks=[]
+    for page in PAGES:
+        src=open(f'{root}/{page}', encoding='utf-8').read()
+        m=re.search(r'<title>(.*?)</title>', src)
+        ks.append(m.group(1).strip().replace('&amp;','&'))
+        p=P(); p.feed(src); ks += p.out
     d=json.load(open(f'{root}/links.json', encoding='utf-8'))
     for g in d['groups']:
         for x in g['partners']: ks.append(x['desc'])

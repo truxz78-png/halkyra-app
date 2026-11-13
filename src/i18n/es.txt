@@ -95,6 +95,59 @@ Términos del servicio
 Contacto
 Las páginas se traducen automáticamente del inglés. La versión en inglés es la oficial.
 Idioma
+Política de privacidad – Halkyra
+← Volver a
+Última actualización: 13 de noviembre de 2026
+Esta Política de privacidad explica cómo la app y el sitio web de Halkyra manejan la información. Halkyra es publicada por DriftforgeDev.
+1. Resumen
+No necesitas una cuenta para usar Halkyra.
+No te pedimos tu nombre, tu correo electrónico ni tus datos de pago.
+No usamos herramientas de analítica ni de seguimiento.
+No mostramos anuncios. No usamos el identificador de publicidad de tu teléfono.
+No vendemos información personal.
+2. Información que no recopilamos
+Halkyra no recopila tu ubicación. Halkyra no lee tus contactos, fotos ni archivos. Halkyra no registra lo que tocas dentro de la app.
+3. Servicios técnicos y almacenamiento local
+Alojamiento del sitio: nuestro sitio web está alojado en GitHub Pages. Como cualquier servidor web, puede registrar datos técnicos, como tu dirección IP y el tipo de navegador, para mostrar la página y mantenerla segura.
+Traducción automática: cuando tu teléfono usa un idioma distinto del inglés, los textos de la página se envían al servicio de traducción de Google (translate.googleapis.com) para traducirlos. Solo se envían los textos de la página. Google puede recibir datos técnicos, como tu dirección IP.
+Almacenamiento local: la app guarda en tu teléfono el idioma que eliges y los textos traducidos, para que la página abra más rápido. También guarda una copia de los archivos de la página, para que la app pueda abrir sin internet. Estos datos se quedan en tu teléfono. Puedes borrarlos si borras el almacenamiento de la app.
+4. Sitios web de los socios
+Cuando tocas el botón de un socio, se abre el sitio web de ese socio. Los socios, como navieras, agencias de viajes, empresas de tours, aseguradoras y proveedores de eSIM, tienen sus propias políticas de privacidad. Sus políticas se aplican a la información que tú les das.
+Algunos enlaces son de afiliado. El socio puede registrar que llegaste desde Halkyra, para poder pagarnos una comisión.
+5. Menores de edad
+Halkyra está hecha para adultos. No recopilamos a sabiendas información de menores de edad.
+6. Cambios en esta Política de privacidad
+Podemos actualizar esta Política de privacidad. La fecha al inicio de esta página muestra la versión más reciente.
+7. Contacto
+Si tienes preguntas sobre esta Política de privacidad, escríbenos a:
+Esta página puede estar traducida automáticamente. La versión en inglés es la oficial.
+Términos del servicio – Halkyra
+Estos Términos del servicio se aplican a la app y al sitio web de Halkyra. Halkyra es operada por DriftforgeDev. Al usar Halkyra, aceptas estos Términos del servicio.
+1. Qué es Halkyra
+Halkyra es una guía gratuita que te ayuda a encontrar navieras, excursiones en los puertos, actividades de playa, seguros de viaje, planes eSIM e información oficial de viaje de todo el mundo.
+Halkyra no es una agencia de viajes. No vendemos cruceros. No hacemos reservas. No procesamos pagos.
+2. Plataformas de los socios
+Las reservas y las compras se hacen en los sitios web de nuestros socios. Tu contrato es solo entre tú y el socio. Cada socio decide sus precios, la disponibilidad, las cancelaciones y los reembolsos. Lee las condiciones del socio antes de reservar.
+3. Aviso sobre enlaces de afiliado
+Algunos enlaces de Halkyra son de afiliado. Podemos ganar una comisión cuando reservas a través de ellos. Esto no cambia el precio que pagas.
+4. Información general
+Las guías y los consejos de Halkyra son información general. No son asesoría legal, médica, financiera ni migratoria. Las reglas de viaje pueden cambiar. Revisa siempre los requisitos de visado y de entrada en fuentes oficiales del gobierno antes de viajar.
+5. Uso permitido
+Usa Halkyra solo para fines legales. No intentes dañar la app ni el sitio web. No copies el contenido de Halkyra para presentarlo como tuyo.
+6. Propiedad intelectual
+El nombre, el ícono, los textos y el diseño de Halkyra pertenecen a DriftforgeDev. Los nombres y las marcas de los socios pertenecen a sus dueños. Solo los usamos para identificar a cada socio.
+7. Traducción automática
+Halkyra se puede traducir automáticamente a muchos idiomas. Las traducciones pueden tener errores. La versión en inglés es la oficial.
+8. Disponibilidad y exactitud
+Halkyra se ofrece tal como está. Trabajamos para que la información sea correcta y los enlaces funcionen. No podemos prometer que cada página o enlace esté siempre disponible o libre de errores.
+9. Límite de responsabilidad
+DriftforgeDev no es responsable de los servicios, los precios ni las acciones de las empresas socias. En la medida en que lo permita la ley, DriftforgeDev no es responsable de pérdidas que vengan del uso de los sitios web de los socios.
+10. Cambios en estos Términos del servicio
+Podemos actualizar estos Términos del servicio. La fecha al inicio de esta página muestra la versión más reciente.
+11. Ley aplicable
+Estos Términos del servicio se rigen por las leyes de la República Dominicana.
+12. Contacto
+Si tienes preguntas sobre estos Términos del servicio, escríbenos a:
 Barcos grandes con muchas actividades a bordo. Cruceros en muchas regiones del mundo.
 Cruceros divertidos y relajados, con muchos viajes cortos.
 Cruceros "estilo libre", con horarios flexibles para comer.
