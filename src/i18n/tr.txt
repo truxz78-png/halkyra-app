@@ -52,6 +52,7 @@ Liman gezileri
 
 
 
+
 Seyahat sigortası
 
 
@@ -179,11 +180,19 @@ Dil
 
 
 
+
+
+
+
+
+
+
 Gizle
 {b} üzerinde kruvaziyer ara
 {b} üzerinde kruvaziyerleri karşılaştır
 {b} üzerinde tur bul
 {b} üzerinde keşfet
+
 {b} üzerinde planları karşılaştır
 {b} üzerinde eSIM planlarını gör
 Aç

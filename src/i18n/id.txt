@@ -52,6 +52,7 @@ Ekskursi di pelabuhan
 
 
 
+
 Asuransi perjalanan
 
 
@@ -179,11 +180,19 @@ Bahasa
 
 
 
+
+
+
+
+
+
+
 Sembunyikan
 Cari kapal pesiar di
 Bandingkan kapal pesiar di
 Cari tur di
 Jelajahi di
+
 Bandingkan paket di
 Lihat paket eSIM di
 Buka

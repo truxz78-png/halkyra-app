@@ -50,6 +50,7 @@ La mayoría empieza en enero
 Varios continentes en un solo viaje largo. Algunas navieras también venden tramos más cortos del recorrido.
 Excursiones en los puertos
 Aprovecha cada día en puerto con tours que puedes reservar antes de zarpar.
+Guardar equipaje
 Planea volver al barco al menos una hora antes de la hora de embarque final ("all aboard").
 Alquiler de barcos, motos acuáticas, snorkel, surf y buceo en puertos y playas de todo el mundo.
 Seguro de viaje
@@ -165,6 +166,10 @@ Tours hechos para pasajeros de crucero en puertos de todo el mundo.
 Tours y actividades en ciudades con puerto.
 Tours, excursiones de un día y actividades en todo el mundo.
 Tours y experiencias, con muchas opciones en Asia.
+Tours, atracciones y actividades, con muchas opciones en Asia.
+Entradas para museos y atracciones en ciudades con puerto.
+Pases de ciudad con entrada a muchas atracciones por un solo precio.
+Deja tu equipaje en un lugar seguro de la ciudad antes o después de tu crucero.
 Alquila barcos, yates, kayaks y motos acuáticas.
 Alquiler de barcos con o sin capitán.
 Alquiler de barcos, con muchas opciones en Europa.
@@ -175,6 +180,9 @@ Seguro de viaje para viajeros de muchos países.
 Planes de datos eSIM para muchos países.
 Planes eSIM, incluidos planes hechos para cruceros.
 Planes eSIM para puertos y algunos barcos de crucero.
+Planes de datos eSIM para viajeros en muchos países.
+Planes eSIM con buenos precios en Europa y muchas otras regiones.
+Una tarjeta SIM de viaje que funciona en muchos países.
 Encuentra embajadas y consulados de cualquier país.
 Información oficial de viaje para ciudadanos de EE. UU.
 Consejos oficiales de viaje del Reino Unido.
@@ -184,6 +192,7 @@ Buscar cruceros en
 Comparar cruceros en
 Buscar tours en
 Explorar en
+Guarda tu equipaje con
 Comparar planes en
 Ver planes eSIM en
 Abrir

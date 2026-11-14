@@ -166,6 +166,8 @@ footer small{display:block;opacity:.8;margin-top:10px}
     <h2>Shore excursions</h2>
     <p class="intro">Make the most of every port day with tours you can book before you sail.</p>
     <div class="grid" data-group="excursions"></div>
+    <h3>Luggage storage</h3>
+    <div class="grid" data-group="storage"></div>
     <div class="note">Always plan to be back on the ship at least one hour before the "all aboard" time.</div>
   </section>
 
@@ -288,7 +290,7 @@ footer small{display:block;opacity:.8;margin-top:10px}
 /* Partner cards from links.json */
 var ACTIONS={
   act_cruises:'Search cruises on', act_compare:'Compare cruises on', act_tours:'Find tours on',
-  act_sea:'Explore on', act_insurance:'Compare plans on', act_esim:'See eSIM plans on', act_official:'Open'
+  act_sea:'Explore on', act_storage:'Store your bags with', act_insurance:'Compare plans on', act_esim:'See eSIM plans on', act_official:'Open'
 };
 function el(tag,cls,txt){var e=document.createElement(tag); if(cls)e.className=cls; if(txt!=null)e.textContent=txt; return e;}
 function noTr(txt){var s=el('span',null,txt); s.setAttribute('translate','no'); return s;}

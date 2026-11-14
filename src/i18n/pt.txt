@@ -52,6 +52,7 @@ Excursões nos portos
 
 
 
+
 Seguro viagem
 
 
@@ -179,11 +180,19 @@ Idioma
 
 
 
+
+
+
+
+
+
+
 Ocultar
 Buscar cruzeiros em
 Comparar cruzeiros em
 Encontrar passeios em
 Explorar em
+
 Comparar planos em
 Ver planos eSIM em
 Abrir

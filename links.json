@@ -172,6 +172,49 @@
           "affiliate": true,
           "enabled": true,
           "desc": "Tours and experiences, with many options in Asia."
+        },
+        {
+          "id": "klook",
+          "name": "Klook",
+          "url": "https://klook.tpx.lu/W86cQd1j",
+          "official": "https://www.klook.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Tours, attractions and activities, with many options in Asia."
+        },
+        {
+          "id": "tiqets",
+          "name": "Tiqets",
+          "url": "https://tiqets.tpx.lu/o3UAZTEY",
+          "official": "https://www.tiqets.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Tickets for museums and attractions in port cities."
+        },
+        {
+          "id": "gocity",
+          "name": "Go City",
+          "url": "https://gocity.tpx.lu/Ho4LEjvk",
+          "official": "https://gocity.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "City passes with entry to many attractions for one price."
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "section": "excursions",
+      "action": "act_storage",
+      "partners": [
+        {
+          "id": "radical",
+          "name": "Radical Storage",
+          "url": "https://radicalstorage.tpx.lu/xhlZsSpl",
+          "official": "https://radical-storage.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Leave your bags in a safe place in the city before or after your cruise."
         }
       ]
     },
@@ -283,6 +326,33 @@
           "affiliate": false,
           "enabled": true,
           "desc": "eSIM plans for ports and some cruise ships."
+        },
+        {
+          "id": "yesim",
+          "name": "Yesim",
+          "url": "https://yesim.tpx.lu/Nj3oZs5O",
+          "official": "https://yesim.tech/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "eSIM data plans for travelers in many countries."
+        },
+        {
+          "id": "saily",
+          "name": "Saily",
+          "url": "https://saily.tpx.lu/KGmdbSzW",
+          "official": "https://saily.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "eSIM plans with good prices in Europe and many other regions."
+        },
+        {
+          "id": "drimsim",
+          "name": "Drimsim",
+          "url": "https://drimsim.tpx.lu/4rVh2hxX",
+          "official": "https://drimsim.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "A travel SIM card that works in many countries."
         }
       ]
     },

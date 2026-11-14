@@ -3,7 +3,7 @@ Use: python3 tools/extract_keys.py  -> prints the keys; compare with src/i18n/ke
 import json, re, sys
 from html.parser import HTMLParser
 
-DYNAMIC = ["Hide", "Search cruises on", "Compare cruises on", "Find tours on", "Explore on",
+DYNAMIC = ["Hide", "Search cruises on", "Compare cruises on", "Find tours on", "Explore on", "Store your bags with",
            "Compare plans on", "See eSIM plans on", "Open", "Opens partner site",
            "Official website. Opens in a new page."]
 
