@@ -149,9 +149,9 @@
         {
           "id": "gyg",
           "name": "GetYourGuide",
-          "url": "https://www.getyourguide.com/",
+          "url": "https://gyg.me/6dL4FNkD",
           "official": "https://www.getyourguide.com/",
-          "affiliate": false,
+          "affiliate": true,
           "enabled": true,
           "desc": "Tours and activities in port cities."
         },
@@ -253,9 +253,9 @@
         {
           "id": "gygwater",
           "name": "GetYourGuide",
-          "url": "https://www.getyourguide.com/s/?q=water%20sports",
+          "url": "https://gyg.me/GrVxXy1w",
           "official": "https://www.getyourguide.com/",
-          "affiliate": false,
+          "affiliate": true,
           "enabled": true,
           "desc": "Jet ski, snorkeling, surf lessons and other water activities."
         },
