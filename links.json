@@ -158,9 +158,9 @@
         {
           "id": "viator",
           "name": "Viator",
-          "url": "https://www.viator.com/",
+          "url": "https://www.viator.com/?pid=P00331820&mcid=42383&medium=link&campaign=halkyra",
           "official": "https://www.viator.com/",
-          "affiliate": false,
+          "affiliate": true,
           "enabled": true,
           "desc": "Tours, day trips and activities worldwide."
         },
