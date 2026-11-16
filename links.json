@@ -341,12 +341,11 @@
         {
           "id": "gigsky",
           "name": "GigSky",
-          "url": "https://www.gigsky.com/data-cruises",
+          "url": "https://gigsky.tpx.lu/7t9mdaFn",
           "official": "https://www.gigsky.com/",
-          "affiliate": false,
-          "enabled": false,
-          "desc": "eSIM plans for ports and some cruise ships.",
-          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
+          "affiliate": true,
+          "enabled": true,
+          "desc": "eSIM plans for ports and some cruise ships."
         },
         {
           "id": "yesim",
