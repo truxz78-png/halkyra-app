@@ -312,6 +312,19 @@ function buildCards(data){
       box.appendChild(c);
     });
   });
+  // Ocultar grupos vacíos (y su título) y secciones sin ningún socio
+  document.querySelectorAll('.grid[data-group]').forEach(function(b){
+    if(b.children.length) return;
+    b.style.display='none';
+    var h=b.previousElementSibling; if(h && h.tagName==='H3') h.style.display='none';
+  });
+  document.querySelectorAll('section').forEach(function(sec){
+    var gs=sec.querySelectorAll('.grid[data-group]'); if(!gs.length) return;
+    var vis=[].some.call(gs,function(b){return b.children.length>0;});
+    if(vis) return;
+    sec.style.display='none';
+    var nav=document.querySelector('a[href="#'+sec.id+'"]'); if(nav) nav.style.display='none';
+  });
 }
 fetch('links.json',{cache:'no-cache'}).then(function(r){return r.json();})
   .then(buildCards)

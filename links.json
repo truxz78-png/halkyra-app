@@ -12,8 +12,9 @@
           "url": "https://www.royalcaribbean.com/",
           "official": "https://www.royalcaribbean.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Big ships with many activities on board. Cruises in many regions of the world."
+          "enabled": false,
+          "desc": "Big ships with many activities on board. Cruises in many regions of the world.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "carnival",
@@ -21,8 +22,9 @@
           "url": "https://www.carnival.com/",
           "official": "https://www.carnival.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Fun and casual cruises, with many short trips."
+          "enabled": false,
+          "desc": "Fun and casual cruises, with many short trips.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "ncl",
@@ -30,8 +32,9 @@
           "url": "https://www.ncl.com/",
           "official": "https://www.ncl.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Freestyle cruising with flexible dining times."
+          "enabled": false,
+          "desc": "Freestyle cruising with flexible dining times.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "msc",
@@ -39,8 +42,9 @@
           "url": "https://www.msccruises.com/",
           "official": "https://www.msccruises.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Cruises in the Mediterranean, Northern Europe, the Caribbean and more."
+          "enabled": false,
+          "desc": "Cruises in the Mediterranean, Northern Europe, the Caribbean and more.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "princess",
@@ -48,8 +52,9 @@
           "url": "https://www.princess.com/",
           "official": "https://www.princess.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Classic cruises, including Alaska, Asia and long voyages."
+          "enabled": false,
+          "desc": "Classic cruises, including Alaska, Asia and long voyages.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "celebrity",
@@ -57,8 +62,9 @@
           "url": "https://www.celebritycruises.com/",
           "official": "https://www.celebritycruises.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Modern premium ships and refined dining."
+          "enabled": false,
+          "desc": "Modern premium ships and refined dining.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "hal",
@@ -66,8 +72,9 @@
           "url": "https://www.hollandamerica.com/",
           "official": "https://www.hollandamerica.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Mid-size ships and longer itineraries."
+          "enabled": false,
+          "desc": "Mid-size ships and longer itineraries.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "costa",
@@ -75,8 +82,9 @@
           "url": "https://www.costacruises.com/",
           "official": "https://www.costacruises.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Italian-style cruises, very popular in Europe."
+          "enabled": false,
+          "desc": "Italian-style cruises, very popular in Europe.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "viking",
@@ -84,8 +92,9 @@
           "url": "https://www.viking.com/",
           "official": "https://www.viking.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Ocean and river cruises focused on the destinations."
+          "enabled": false,
+          "desc": "Ocean and river cruises focused on the destinations.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         }
       ]
     },
@@ -100,8 +109,9 @@
           "url": "https://www.cruisedirect.com/",
           "official": "https://www.cruisedirect.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Online cruise agency that shows many cruise lines in one search."
+          "enabled": false,
+          "desc": "Online cruise agency that shows many cruise lines in one search.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "cruisecom",
@@ -109,8 +119,9 @@
           "url": "https://www.cruise.com/",
           "official": "https://www.cruise.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Search cruises from many cruise lines."
+          "enabled": false,
+          "desc": "Search cruises from many cruise lines.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "cruisecritic",
@@ -118,8 +129,9 @@
           "url": "https://www.cruisecritic.com/",
           "official": "https://www.cruisecritic.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Read cruise reviews and compare prices."
+          "enabled": false,
+          "desc": "Read cruise reviews and compare prices.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "expedia",
@@ -127,8 +139,9 @@
           "url": "https://www.expedia.com/Cruises",
           "official": "https://www.expedia.com/Cruises",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Search and compare cruises from many cruise lines."
+          "enabled": false,
+          "desc": "Search and compare cruises from many cruise lines.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         }
       ]
     },
@@ -143,8 +156,9 @@
           "url": "https://www.shoreexcursionsgroup.com/",
           "official": "https://www.shoreexcursionsgroup.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Tours made for cruise passengers in ports around the world."
+          "enabled": false,
+          "desc": "Tours made for cruise passengers in ports around the world.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "gyg",
@@ -229,8 +243,9 @@
           "url": "https://www.getmyboat.com/",
           "official": "https://www.getmyboat.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Rent boats, yachts, kayaks and jet skis."
+          "enabled": false,
+          "desc": "Rent boats, yachts, kayaks and jet skis.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "boatsetter",
@@ -238,8 +253,9 @@
           "url": "https://www.boatsetter.com/",
           "official": "https://www.boatsetter.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Boat rentals with or without a captain."
+          "enabled": false,
+          "desc": "Boat rentals with or without a captain.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "samboat",
@@ -247,8 +263,9 @@
           "url": "https://www.samboat.com/",
           "official": "https://www.samboat.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Boat rentals, with many options in Europe."
+          "enabled": false,
+          "desc": "Boat rentals, with many options in Europe.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "gygwater",
@@ -265,8 +282,9 @@
           "url": "https://www.padi.com/",
           "official": "https://www.padi.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Learn to scuba dive and find dive centers."
+          "enabled": false,
+          "desc": "Learn to scuba dive and find dive centers.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         }
       ]
     },
@@ -290,8 +308,9 @@
           "url": "https://www.worldnomads.com/",
           "official": "https://www.worldnomads.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "Travel insurance for travelers from many countries."
+          "enabled": false,
+          "desc": "Travel insurance for travelers from many countries.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         }
       ]
     },
@@ -315,8 +334,9 @@
           "url": "https://esim.holafly.com/esim-cruise-ships/",
           "official": "https://esim.holafly.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "eSIM plans, including plans made for cruises."
+          "enabled": false,
+          "desc": "eSIM plans, including plans made for cruises.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "gigsky",
@@ -324,8 +344,9 @@
           "url": "https://www.gigsky.com/data-cruises",
           "official": "https://www.gigsky.com/",
           "affiliate": false,
-          "enabled": true,
-          "desc": "eSIM plans for ports and some cruise ships."
+          "enabled": false,
+          "desc": "eSIM plans for ports and some cruise ships.",
+          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
         },
         {
           "id": "yesim",
