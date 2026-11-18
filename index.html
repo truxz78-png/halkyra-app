@@ -42,13 +42,13 @@ a{color:var(--ocean)}
 .hero .meaning{position:absolute;left:0;right:0;bottom:18px;text-align:center;font-size:13px;opacity:.95;padding:0 20px;text-shadow:0 1px 6px rgba(0,0,0,.5)}
 
 /* Section nav */
-.secnav{position:sticky;top:54px;z-index:20;background:var(--navy);overflow-x:auto;white-space:nowrap;scrollbar-width:none;padding:8px 10px}
+/* secnav-centrado */.secnav{position:sticky;top:54px;z-index:20;background:var(--navy);display:flex;flex-wrap:wrap;justify-content:center;gap:2px 2px;padding:6px 6px}
 .secnav::-webkit-scrollbar{display:none}
-.secnav a{display:inline-block;color:#cfe3f5;text-decoration:none;font-weight:700;font-size:14px;padding:7px 13px;border-radius:999px;margin-right:4px}
+.secnav a{display:inline-block;color:#cfe3f5;text-decoration:none;font-weight:700;font-size:13px;padding:5px 9px;border-radius:999px;white-space:nowrap}
 .secnav a.on{background:var(--sea);color:#06263f}
 
 /* Sections */
-section{padding:34px 0 10px}
+section{padding:34px 0 10px;scroll-margin-top:var(--navh,140px)}
 h2{font-size:24px;margin:0 0 6px;color:var(--navy)}
 h3{font-size:16px;margin:22px 0 10px;color:var(--ocean);text-transform:uppercase;letter-spacing:.6px}
 .intro{color:var(--muted);margin:0 0 14px}
@@ -273,12 +273,12 @@ footer small{display:block;opacity:.8;margin-top:10px}
   var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'));});
   function onScroll(){
     top.classList.toggle('solid', window.scrollY>40);
-    var y=window.scrollY+130, cur=-1;
+    var nb=document.getElementById('secnav').getBoundingClientRect().bottom;
+    document.documentElement.style.setProperty('--navh',(nb+8)+'px');
+    var y=window.scrollY+nb+20, cur=-1;
     secs.forEach(function(s,i){ if(s && s.offsetTop<=y) cur=i; });
     if((window.innerHeight+window.scrollY)>=document.body.scrollHeight-4) cur=secs.length-1;
     links.forEach(function(a,i){ a.classList.toggle('on', i===cur); });
-    if(cur>=0){ var a=links[cur], nav=a.parentNode;
-      if(a.offsetLeft<nav.scrollLeft || a.offsetLeft+a.offsetWidth>nav.scrollLeft+nav.clientWidth){ nav.scrollLeft=a.offsetLeft-20; } }
   }
   window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
 })();
