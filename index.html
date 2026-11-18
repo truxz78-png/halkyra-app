@@ -62,6 +62,7 @@ h3{font-size:16px;margin:22px 0 10px;color:var(--ocean);text-transform:uppercase
 .note{background:#e6f6f9;border-left:4px solid var(--sea);border-radius:10px;padding:10px 14px;font-size:14px;margin:14px 0 4px}
 
 /* Disclosure */
+.soon{background:#eaf6fb;border:1px solid #cfe7f2;border-radius:16px;padding:14px 16px;margin:0 0 16px}.soon .t{font-weight:800;color:var(--navy);margin-bottom:4px}.soon p{margin:0}.soonbtns{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}.sbtn{display:inline-block;background:var(--ocean);color:#fff;text-decoration:none;font-weight:700;padding:9px 16px;border-radius:999px}
 .disc{background:#fff7e3;border:1px solid #f1dfaa;border-radius:12px;padding:10px 14px;font-size:14px;margin:0 0 16px}
 .disc details summary{cursor:pointer;color:var(--ocean);font-weight:700;margin-top:4px;list-style:none}
 .disc details summary::-webkit-details-marker{display:none}
@@ -139,6 +140,11 @@ footer small{display:block;opacity:.8;margin-top:10px}
         <summary id="discSum">About these links</summary>
         <p>This app is a free guide. We do not sell cruises. We do not take bookings. We do not process payments. When you tap a partner button, the partner's website opens and your booking is made only with that partner. Some partners pay us a small commission when a booking is made through our links. This does not change the price you pay.</p>
       </details>
+    </div>
+    <div class="soon" id="cruiseSoon">
+      <div class="t"><span translate="no">🚢</span> Cruise lines are coming soon</div>
+      <p>We are adding cruise lines and cruise agencies from around the world. Meanwhile, plan your trip with our free guides.</p>
+      <div class="soonbtns"><a class="sbtn" href="#regions">Explore cruise regions</a><a class="sbtn" href="#guides">Read our cruise guides</a></div>
     </div>
     <h3>Cruise lines</h3>
     <div class="grid" data-group="lines"></div>
@@ -318,8 +324,11 @@ function buildCards(data){
     b.style.display='none';
     var h=b.previousElementSibling; if(h && h.tagName==='H3') h.style.display='none';
   });
+  var anyCruise=[].some.call(document.querySelectorAll('#cruises .grid[data-group]'),function(b){return b.children.length>0;});
+  var soon=document.getElementById('cruiseSoon'); if(soon && anyCruise) soon.style.display='none';
   document.querySelectorAll('section').forEach(function(sec){
     var gs=sec.querySelectorAll('.grid[data-group]'); if(!gs.length) return;
+    if(sec.id==='cruises') return;
     var vis=[].some.call(gs,function(b){return b.children.length>0;});
     if(vis) return;
     sec.style.display='none';
