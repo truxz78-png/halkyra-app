@@ -7,6 +7,15 @@
       "action": "act_cruises",
       "partners": [
         {
+          "id": "rwcruises",
+          "name": "Resorts World Cruises",
+          "url": "https://klook.tpx.lu/AQvguwmr",
+          "official": "https://www.rwcruises.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Resorts World Cruises from Singapore and Hong Kong, booked through Klook."
+        },
+        {
           "id": "royal",
           "name": "Royal Caribbean",
           "url": "https://www.royalcaribbean.com/",
