@@ -1,5 +1,5 @@
 /* Network-first: always try the internet first, use the saved copy only when offline. */
-const CACHE = 'halkyra-v5';
+const CACHE = 'halkyra-v6';
 const CORE = ['./', 'index.html', 'links.json', 'i18n.js', 'translate.js', 'manifest.json', 'img/hero.webp', 'img/icon-192.png'];
 self.addEventListener('install', e => {
   self.skipWaiting();

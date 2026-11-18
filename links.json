@@ -16,6 +16,42 @@
           "desc": "Resorts World Cruises from Singapore and Hong Kong, booked through Klook."
         },
         {
+          "id": "rcsingapore",
+          "name": "Royal Caribbean (Singapore)",
+          "url": "https://klook.tpx.lu/bNpXRPze",
+          "official": "https://www.royalcaribbean.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Navigator of the Seas cruises from Singapore, booked through Klook."
+        },
+        {
+          "id": "rchongkong",
+          "name": "Royal Caribbean (Hong Kong)",
+          "url": "https://klook.tpx.lu/ryoxk9Gz",
+          "official": "https://www.royalcaribbean.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Spectrum of the Seas cruises from Hong Kong, booked through Klook."
+        },
+        {
+          "id": "startaiwan",
+          "name": "StarCruises (Taiwan)",
+          "url": "https://klook.tpx.lu/YqPProwi",
+          "official": "https://www.stardreamcruises.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Star Navigator cruises from Keelung, Taiwan, to Japan and Korea, booked through Klook."
+        },
+        {
+          "id": "starvietnam",
+          "name": "StarCruises (Vietnam)",
+          "url": "https://klook.tpx.lu/B9iv1U5h",
+          "official": "https://www.stardreamcruises.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Star Voyager cruises from Vietnam, booked through Klook."
+        },
+        {
           "id": "royal",
           "name": "Royal Caribbean",
           "url": "https://www.royalcaribbean.com/",
