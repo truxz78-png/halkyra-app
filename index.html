@@ -20,7 +20,7 @@
   --sand:#f6f3ec; --ink:#14263a; --muted:#5b6b7c; --card:#ffffff; --line:#e3e8ee;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:112px}
+html{scroll-behavior:smooth;scroll-padding-top:var(--navh,140px)}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;color:var(--ink);background:var(--sand);line-height:1.5;-webkit-font-smoothing:antialiased}
 a{color:var(--ocean)}
 .wrap{max-width:900px;margin:0 auto;padding:0 18px}
@@ -48,7 +48,7 @@ a{color:var(--ocean)}
 .secnav a.on{background:var(--sea);color:#06263f}
 
 /* Sections */
-section{padding:34px 0 10px;scroll-margin-top:var(--navh,140px)}
+section{padding:34px 0 10px}
 h2{font-size:24px;margin:0 0 6px;color:var(--navy)}
 h3{font-size:16px;margin:22px 0 10px;color:var(--ocean);text-transform:uppercase;letter-spacing:.6px}
 .intro{color:var(--muted);margin:0 0 14px}
@@ -273,7 +273,7 @@ footer small{display:block;opacity:.8;margin-top:10px}
   var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'));});
   function onScroll(){
     top.classList.toggle('solid', window.scrollY>40);
-    var nb=document.getElementById('secnav').getBoundingClientRect().bottom;
+    var nb=54+document.getElementById('secnav').offsetHeight;
     document.documentElement.style.setProperty('--navh',(nb+8)+'px');
     var y=window.scrollY+nb+20, cur=-1;
     secs.forEach(function(s,i){ if(s && s.offsetTop<=y) cur=i; });
