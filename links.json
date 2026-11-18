@@ -181,12 +181,11 @@
         {
           "id": "expedia",
           "name": "Expedia Cruises",
-          "url": "https://www.expedia.com/Cruises",
+          "url": "https://expedia.com/affiliate/gxh3lAN",
           "official": "https://www.expedia.com/Cruises",
-          "affiliate": false,
-          "enabled": false,
-          "desc": "Search and compare cruises from many cruise lines.",
-          "note": "Sin enlace de afiliado: oculto hasta tener comisión"
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Search and compare cruises from many cruise lines."
         }
       ]
     },
