@@ -149,6 +149,15 @@
       "action": "act_compare",
       "partners": [
         {
+          "id": "egitto",
+          "name": "Viaggio in Egitto",
+          "url": "https://twnfz.com/g/eyysga3bd425d9b3efc771b63f26eb/",
+          "official": "https://www.viaggioinegitto.com/",
+          "affiliate": true,
+          "enabled": true,
+          "desc": "Nile cruises between Luxor and Aswan and tours of Egypt, from an Italian travel agency. Site in Italian."
+        },
+        {
           "id": "cruisedirect",
           "name": "CruiseDirect",
           "url": "https://www.cruisedirect.com/",
